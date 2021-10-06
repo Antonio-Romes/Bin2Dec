@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+        <title>Bin2 Dec</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+
+        <main class="d-flex justify-content-center align-items-center conteudo"> 
+            <section class="bin2Dec" >
+                <header class="titulo">
+                    <h1>Bin2 Dec</h1>
+                    <h4>Converte valor em binario em Decimal</h4>
+                </header>
+                <hr/>
+                <section>
+                    <div>
+                        <label for="txtValorBinario" class="fw-bolder form-label">Valor Binario:</label>
+                        <input type="text" class="form-control" id="txtValorBinario" placeholder="010101" required> 
+                    </div> 
+                </section>
+                <div class="d-flex justify-content-center p-2">
+                    <button type="btn" class="btn btn-primary" onclick="converterValorBinarioParaDecimal()">Converter</button>
+                </div>
+                
+                <div class="text-center p-2"> 
+                    <h2>Valor em Decimal</h2> 
+                    <span class="h1 fw-bolder" id="spnMostrarValorConvertido">0</span> 
+                </div> 
+            </section> 
+            <div class="alert alert-warning " id="divMensagem" role="alert">
+                Não são permitodo valor vazio ou diferente de 1 ou 0 
+            </div>
+        </main>  
+        
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

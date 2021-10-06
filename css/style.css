@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(145, 197, 212);
+      
+}
+
+.conteudo{
+    height: 100vh;
+     
+}
+
+.bin2Dec{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #22221e;
+    border-radius: 15px;
+    background: rgb(95, 144, 190, 0.5);
+}
+
+.titulo{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 52px;
+    font-family: monospace; 
+    font-weight: 600;
+}
+
+#divMensagem{
+    position: fixed; 
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
