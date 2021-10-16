@@ -5,7 +5,7 @@
 }
 
 body{
-    background: rgb(145, 197, 212);
+    background-image: linear-gradient(to left bottom, #a88f9d, #ac8da7, #ab8cb4, #a38dc4, #9390d4, #7a95dc, #589ae0, #209fe1, #00a3d4, #00a4c2, #00a4af, #2aa39b);
       
 }
 
